@@ -3,5 +3,5 @@ test("Prueba de suma", () => {
   const b = 2;
   const resultado = a + b;
 
-  expect(resultado).toBe(3);
+  expect(resultado).toBe(4);
 });
