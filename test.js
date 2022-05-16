@@ -7,5 +7,7 @@ test('Prueba de suma', () => {
     const b = 2
     const resultado = suma(a, b)
 
-    assert.strictEqual(resultado, 3)
+    const resultadoEsperado = 3
+
+    assert.strictEqual(resultado, resultadoEsperado)
 })
